@@ -1,0 +1,9 @@
+Package: com.qiop1379.anactuallygoodfilzaeditor
+Name: AnActuallyGoodFilzaEditor
+Depends: mobilesubstrate
+Version: 0.1.0~beta1
+Architecture: iphoneos-arm
+Description: Transform the Filza text editor. Adds themes and syntax highlighting.
+Maintainer: qwertyuiop1379
+Author: qwertyuiop1379
+Section: Tweaks

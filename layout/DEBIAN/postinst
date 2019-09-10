@@ -1,0 +1,15 @@
+echo "Checking for existing file extesions..."
+if [ -f /var/mobile/Library/Application\ Support/AnActuallyGoodFilzaEditor/fileExtensions.plist ]; then
+    echo "File extesions exists, not overwriting."
+else
+    echo "File extesions does not exist, copying default extensions over."
+    cp /var/mobile/Library/Application\ Support/AnActuallyGoodFilzaEditor/fileExtensionsDefault.plist /var/mobile/Library/Application\ Support/AnActuallyGoodFilzaEditor/fileExtensions.plist
+fi
+
+echo "Fixing ownwership and permissions..."
+chown mobile:mobile -R /var/mobile/Library/Application\ Support/AnActuallyGoodFilzaEditor
+chmod 0755 -R /var/mobile/Library/Application\ Support/AnActuallyGoodFilzaEditor
+
+echo "Done! Thanks for installing AnActuallyGoodFilzaEditor."
+echo "If you have any questions message me on discord at scoob#0049."
+echo "Good luck young developer!"
