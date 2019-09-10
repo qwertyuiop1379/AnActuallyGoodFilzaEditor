@@ -2,4 +2,4 @@
 
 I'll do this later...
 
-http://repo.qwertyuiop1379.com:7777/package/?id=com.qiop1379.anactuallygoodfilzaeditor
+http://qwertyuiop1379.com/package/?id=com.qiop1379.anactuallygoodfilzaeditor
